@@ -1,0 +1,180 @@
+
+.megamenu {
+  position: static;
+}
+
+.megamenu .dropdown-menu {
+  background: none;
+  border: none;
+  width: 100%;
+}
+
+
+body {
+  background: #e2d3d9;
+  background: -webkit-linear-gradient(to right, #eaafc8, #d7d6da);
+  background: linear-gradient(to right, #ebdfe4, #d4d4d6);
+  min-height: 100vh;
+}
+
+code {
+  background: #fff;
+  padding: 0.1rem 0.1rem;
+  border-radius: 0.2rem;
+}
+
+.text-uppercase {
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 991px) { 
+  .toggleLtr{
+    direction: ltr;
+  } 
+}
+
+
+/* old */
+.navbar-padding-0{
+  padding-bottom: 0px!important;
+  border-bottom: 1rem!important;
+}
+.nav-link-black{
+
+  color: #1b1414!important;
+}
+
+ 
+  @media only screen and (max-width: 600px) {
+    nav {
+    
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 767px){
+    visible-xs {
+      display: flex;
+      flex-direction: row-reverse;
+    }
+  }
+
+
+@font-face {
+  font-family: Font1;
+  src: url(../fonts/4_6021583658396157490.woff2);
+}
+
+
+
+@font-face {
+  font-family: Font2;
+  src: url(../fonts/4_6021583658396157491.woff2);
+}
+
+@font-face {
+  font-family: Font3;
+  src: url(../fonts/4_6021583658396157490.woff2);
+} 
+
+div {
+  font-family: Font2;
+}
+
+nav, a{
+  font-family: Font2;
+}
+.brand{
+  color: rgba(0,0,0,.5);
+  font-family: Lucida Bright;
+  text-align: center;
+}
+
+
+button {
+  font-family: Font2;
+  font-weight: bold;
+}
+
+
+.social_menu_ul { display:table; margin: auto; list-style-type:none;  align-self: center; padding-left: 2rem; }
+.social_menu_ul li { padding-left:4px; padding-top:10px; float:left; }
+.social_menu_ul li a { color:rgb(216, 210, 210); border:  rgb(59, 57, 57); padding:3px;border-radius:1px;}
+.social_menu_ul li i {  width:35px; height:35px; text-align:center;}
+
+
+.subdivider {
+  border-top: rgb(94, 99, 99);
+  color: rgb(90, 86, 86);
+}
+.dropdown a {
+  color: rgb(224, 217, 217);
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+
+
+.Button1 {
+    background-color: rgb(137, 147, 167);
+}
+
+.Button2 {
+    background-color: #412720;
+}
+      
+.Button3 {
+ background-color: #920606;   
+}
+
+.Button4 {
+  background-color: #f56404;
+  }
+
+/*test jQuery
+*/
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 40vw;
+      width: 70vw;
+      background: rgb(196, 157, 157);
+      z-index: 10;
+     
+    }
+  
+    @media (min-width: 768px) { 
+      .overlay {
+        
+        height: 10vw;
+        width: 20vw;
+        
+       
+      } 
+    }
+
+    @media (min-width: 768px) and (max-width: 991px) { 
+      .overlay {
+        
+        height: 20vw;
+        width: 30vw;
+        
+       
+      } 
+    }
+
+    .modal-header .close {
+      padding: 1rem;
+      margin: -1rem -1rem -1rem ;
+    }
+
+    .btn-modal {
+      margin: .5rem;
+    }
